@@ -7,8 +7,12 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/fragment_place"
-        ></FrameLayout>
+        android:id="@+id/fragment_place">
+        <fragment
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:name="edu.cascadia.mobile.apps.fragmentbasics.FragmentA" />
+    </FrameLayout>
     <Button
         android:id="@+id/change"
         android:layout_width="fill_parent"
